@@ -1,0 +1,70 @@
+<!--Shane Murdock 2899741-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="uft-8">
+		<title>Shane Murdock Checkboxes</title>
+		<script src="function.js">
+			
+		</script>
+</head>
+<body>
+
+	<h1>How well do you know Shane Murdock</h1>
+	<form name="quiz" action="submission.html" method="get" onsubmit="return is_checked()" >
+		<ol>
+		
+			<li>What is  my favourite Movie?</li>
+				
+			<ul>
+				<li><input type="radio" name="q1" value="correct" id="leon"/>Leon</li>
+				<li><input type="radio" name="q1" value="wrong" id="irates of the carribian"/>Pirates of The Carribian</li>
+				<li><input type="radio" name="q1" value="wrong" id="click"/>Click</li>
+				<li><input type="radio" name="q1" value="wrong" id="highlander"/>Highlander</li>
+			</ul>
+
+			<li>What colour are my eyes?</li>
+			<ul>
+				<li><input type="radio" name="q2" value="wrong" id="green"/>green</li>
+				<li><input type="radio" name="q2" value="correct" id="blue"/>blue</li>
+				<li><input type="radio" name="q2" value="wrong" id="brown"/>brown</li>
+			</ul>
+
+			 <li>What was my first car?</li>
+			 <ul>
+				<li><input type="radio" name="q3" value="correct" id="starlet"/>Toyota Starlet</li>
+				<li><input type="radio" name="q3" value="wrong" id="lancer"/>Mitsubishi Lancer</li>
+				<li><input type="radio" name="q3" value="wrong" id="focus"/>Ford Focus</li>
+			</ul>
+		 
+			<li>What does a pascatarian eat?</li><br/>
+			<ul>	
+				<li><input type="checkbox" name="q4" value="correct" id="fish"/>fish</li>
+				<li><input type="checkbox" name="q4" value="correct" id="vegitables"/>vegitables</li>
+				<li><input type="checkbox" name="q4" value="wrong" id="meat"/>meat</li>
+				<li><input type="checkbox" name="q4" value="wrong" id="insects"/>insects</li>
+				<li><input type="checkbox" name="q4" value="wrong" id="fungi"/>fungi</li>
+			</ul>
+
+			<li>What sport did I practice when I was younger is:</li>
+			<select id="mylist" onchange="favourtespports()"/><br/>
+				
+			<ul>	
+				<li><option>Golf</option></li>
+				<li><option>Football</option></li>
+				<li><option>Kickboxing</option></li>
+			</ul>
+
+		</ol><br/>
+		<input type = "button" value="submit" onClick="checkQs()"></input>	
+		<input type = "reset" value="clear"></input>	
+		<textarea rows = "6" cols = "60" name="answersBox">The correct answers will diplay here</textarea>
+	</form>
+	<footer class="page_footer">
+		
+		&copy; Copywright Shane_Murdock_2899741: shanemurdock@gmail.com
+	</footer>
+
+
+</body>
+</html>
